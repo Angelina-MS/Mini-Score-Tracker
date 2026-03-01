@@ -1,0 +1,39 @@
+score=0
+user=input("what is your name?").strip()
+
+while True:
+    try:
+        answer1=int(input("what is 20+10?").strip())
+        break
+    except ValueError:
+        print("invalid,please re-type the answer")
+if answer1== 30:
+        print("correct")
+        score+=1
+else:
+    print("incorrect")
+
+while True:
+    try:
+        answer2=int(input("what is 30+40?").strip())
+        break
+    except ValueError:
+        print("invalid,please re-type the answer")
+if answer2== 70:
+    print("correct")
+    score+=1
+else:
+    print("incorrect")
+
+while True:
+    try:
+        answer3=int(input("what is 20+25?").strip())
+        break
+    except ValueError:
+        print("invalid,please re-type the answer")
+if answer3== 45:
+    print("correct")
+    score+=1
+else:
+    print("incorrect")
+print(f"{user},you got {score} out of 3 right")
