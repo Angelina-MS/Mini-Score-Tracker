@@ -2,7 +2,7 @@
 
 A program that asks the user for their name, then quizzes them with math questions. It tracks their score and announces the final result at the end.
 
-What I learnt:
+What I learned:
 -While loops
 -Conditional statements(if and else)
 -User input(to store scores and user information)
